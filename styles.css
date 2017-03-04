@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+body {
+  background-color: #eee;
+
+  width: 1000px;
+
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+font-family: 'Baloo', cursive;
+}
+
+#header {
+  background-image: url('http://placehold.it/1000x100?text=banner');
+  width: 1000px;
+  height: 100px;
+}
+
+#nav-bar {
+    background-color: #222;
+    height: 50px;
+
+    margin-top: 5px;
+}
+
+#nav-bar ul{
+    font-size: 1.5em;
+
+    list-style-type: none;
+
+    padding: 0px;
+
+    margin: 0px;
+}
+
+#nav-bar li {
+  float: left;
+}
+
+#nav-bar a {
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+
+  height: 30px;
+  display: block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+}
+
+#nav-bar a:hover {
+  background-color: #555;
+}
+
+#slider {
+  background-image: url('http://placehold.it/1000x350?text=image+slider');
+  height: 350px;
+  width: 1000px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
